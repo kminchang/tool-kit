@@ -1,4 +1,4 @@
-module github.com/obsidzen/tool-kit/tui-kit
+module github.com/kminchang/tool-kit/tui-kit
 
 go 1.26
 
@@ -6,7 +6,7 @@ require (
 	github.com/charmbracelet/bubbles v1.0.0
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
-	github.com/obsidzen/tool-kit/run-kit v0.2.0
+	github.com/kminchang/tool-kit/run-kit v0.5.0
 )
 
 require (
@@ -34,4 +34,4 @@ require (
 	golang.org/x/text v0.3.8 // indirect
 )
 
-replace github.com/obsidzen/tool-kit/run-kit => ../run-kit
+replace github.com/kminchang/tool-kit/run-kit => ../run-kit

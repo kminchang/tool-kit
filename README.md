@@ -15,18 +15,18 @@
 
 ```go
 import (
- clikit "github.com/obsidzen/tool-kit/cli-kit"
- runkit "github.com/obsidzen/tool-kit/run-kit"
- tuikit "github.com/obsidzen/tool-kit/tui-kit"
+ clikit "github.com/kminchang/tool-kit/cli-kit"
+ runkit "github.com/kminchang/tool-kit/run-kit"
+ tuikit "github.com/kminchang/tool-kit/tui-kit"
 )
 ```
 
 개별 module을 필요한 만큼만 의존한다.
 
 ```sh
-go get github.com/obsidzen/tool-kit/cli-kit@v0.1.0
-go get github.com/obsidzen/tool-kit/run-kit@v0.1.0
-go get github.com/obsidzen/tool-kit/tui-kit@v0.1.0
+go get github.com/kminchang/tool-kit/cli-kit@v0.2.0
+go get github.com/kminchang/tool-kit/run-kit@v0.5.0
+go get github.com/kminchang/tool-kit/tui-kit@v0.3.0
 ```
 
 ## Development

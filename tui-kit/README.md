@@ -1,6 +1,6 @@
 # tui-kit
 
-obsidzen CLI 도구(Go + Bubble Tea)가 공유하는 **TUI 부품** 모듈. Bubble Tea 타입/실행기를 표준 진입점으로 감싸고, 테마(색·스타일), 고정 상태 글리프(`▶ ✓ ⚠ ✗`), 공통 화면 프레임 `Screen()`을 제공해 도구 간 룩과 실행 방식을 통일한다.
+Go + Bubble Tea CLI 도구가 공유하는 **TUI 부품** 모듈. Bubble Tea 타입/실행기를 표준 진입점으로 감싸고, 테마(색·스타일), 고정 상태 글리프(`▶ ✓ ⚠ ✗`), 공통 화면 프레임 `Screen()`을 제공해 도구 간 룩과 실행 방식을 통일한다.
 
 버전은 `VERSION` 파일과 module tag로 관리한다.
 
@@ -49,8 +49,8 @@ obsidzen CLI 도구(Go + Bubble Tea)가 공유하는 **TUI 부품** 모듈. Bubb
 ## 사용
 
 ```go
-import tuikit "github.com/obsidzen/tool-kit/tui-kit"
-// go.mod: require github.com/obsidzen/tool-kit/tui-kit v0.1.0
+import tuikit "github.com/kminchang/tool-kit/tui-kit"
+// go.mod: require github.com/kminchang/tool-kit/tui-kit v0.3.0
 view := tuikit.Screen(width, "Title", body, footer)
 ```
 

@@ -1,6 +1,6 @@
 # cli-kit
 
-obsidzen CLI 도구(Go + Cobra)가 공유하는 **CLI 부품** 모듈. 공통 root command 설정, action command 등록, shell completion command, enum completion helper를 제공한다.
+Go + Cobra CLI 도구가 공유하는 **CLI 부품** 모듈. 공통 root command 설정, action command 등록, shell completion command, enum completion helper를 제공한다.
 
 역할 경계: [tool-kit README](../README.md).
 

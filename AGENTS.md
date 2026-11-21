@@ -21,15 +21,15 @@ Go 1.26 multi-module repo for shared CLI/TUI building blocks:
 
 - [ ] `./scripts/ci.sh` passes.
 - [ ] Public API changes are reflected in the relevant module `README.md` and `README.en.md`.
-- [ ] Module paths and tag examples remain aligned with `github.com/obsidzen/tool-kit/<kit>`.
+- [ ] Module paths and tag examples remain aligned with `github.com/kminchang/tool-kit/<kit>`.
 - [ ] `AGENTS.md` still matches the actual structure, commands, and testing approach.
 
 ## Project Structure
 
 ```text
-cli-kit/      # module github.com/obsidzen/tool-kit/cli-kit
-run-kit/      # module github.com/obsidzen/tool-kit/run-kit
-tui-kit/      # module github.com/obsidzen/tool-kit/tui-kit
+cli-kit/      # module github.com/kminchang/tool-kit/cli-kit
+run-kit/      # module github.com/kminchang/tool-kit/run-kit
+tui-kit/      # module github.com/kminchang/tool-kit/tui-kit
 scripts/      # repo-local verification scripts
 .github/      # PR, issue, and CI configuration
 ```

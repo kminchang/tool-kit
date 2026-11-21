@@ -1,4 +1,4 @@
-// Package tuikit provides shared Bubble Tea UI components for obsidzen CLI tools.
+// Package tuikit provides shared Bubble Tea UI components for CLI tools.
 // It defines theme styles, fixed status glyphs, and the common Screen frame.
 package tuikit
 

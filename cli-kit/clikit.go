@@ -1,4 +1,4 @@
-// Package clikit provides shared Cobra helpers for obsidzen CLI tools.
+// Package clikit provides shared Cobra helpers for CLI tools.
 package clikit
 
 import (

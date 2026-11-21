@@ -1,4 +1,4 @@
-// Package runkit provides injectable process runners for obsidzen tools.
+// Package runkit provides injectable process runners for Go tools.
 package runkit
 
 import (

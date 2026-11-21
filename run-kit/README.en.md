@@ -2,7 +2,7 @@
 
 > Source: README.md (ko).
 
-Injectable process runner module for obsidzen Go tools. Production code uses `ExecRunner`; tests can swap in fake runners to verify command sequences.
+Injectable process runner module for Go tools. Production code uses `ExecRunner`; tests can swap in fake runners to verify command sequences.
 
 ## API
 

@@ -17,18 +17,18 @@ Shared Go modules for building small operational CLI/TUI tools.
 
 ```go
 import (
- clikit "github.com/obsidzen/tool-kit/cli-kit"
- runkit "github.com/obsidzen/tool-kit/run-kit"
- tuikit "github.com/obsidzen/tool-kit/tui-kit"
+ clikit "github.com/kminchang/tool-kit/cli-kit"
+ runkit "github.com/kminchang/tool-kit/run-kit"
+ tuikit "github.com/kminchang/tool-kit/tui-kit"
 )
 ```
 
 Depend only on the modules your tool needs.
 
 ```sh
-go get github.com/obsidzen/tool-kit/cli-kit@v0.1.0
-go get github.com/obsidzen/tool-kit/run-kit@v0.1.0
-go get github.com/obsidzen/tool-kit/tui-kit@v0.1.0
+go get github.com/kminchang/tool-kit/cli-kit@v0.2.0
+go get github.com/kminchang/tool-kit/run-kit@v0.5.0
+go get github.com/kminchang/tool-kit/tui-kit@v0.3.0
 ```
 
 ## Development
