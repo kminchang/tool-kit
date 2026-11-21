@@ -2,7 +2,7 @@
 
 > Source: README.md (ko).
 
-Shared **TUI components** for obsidzen Go + Bubble Tea tools. It wraps Bubble Tea types and execution helpers, provides a common theme, fixed status glyphs (`▶ ✓ ⚠ ✗`), and reusable screen/model primitives.
+Shared **TUI components** for Go + Bubble Tea tools. It wraps Bubble Tea types and execution helpers, provides a common theme, fixed status glyphs (`▶ ✓ ⚠ ✗`), and reusable screen/model primitives.
 
 Versioning uses the `VERSION` file and module tags.
 
@@ -51,7 +51,7 @@ Reusable models:
 ## Usage
 
 ```go
-import tuikit "github.com/obsidzen/tool-kit/tui-kit"
+import tuikit "github.com/kminchang/tool-kit/tui-kit"
 
 view := tuikit.Screen(width, "Title", body, footer)
 ```

@@ -1,4 +1,4 @@
-module github.com/obsidzen/tool-kit/cli-kit
+module github.com/kminchang/tool-kit/cli-kit
 
 go 1.26
 

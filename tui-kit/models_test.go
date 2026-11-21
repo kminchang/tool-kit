@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	runkit "github.com/obsidzen/tool-kit/run-kit"
+	runkit "github.com/kminchang/tool-kit/run-kit"
 )
 
 func TestSelectModel(t *testing.T) {

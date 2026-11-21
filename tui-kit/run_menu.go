@@ -3,7 +3,7 @@ package tuikit
 import (
 	"context"
 
-	runkit "github.com/obsidzen/tool-kit/run-kit"
+	runkit "github.com/kminchang/tool-kit/run-kit"
 )
 
 type RunMenuModel struct {

@@ -2,7 +2,7 @@
 
 > Source: README.md (ko).
 
-Shared **CLI components** for obsidzen Go + Cobra tools. It provides common root command setup, action command registration, shell completion commands, and enum completion helpers.
+Shared **CLI components** for Go + Cobra tools. It provides common root command setup, action command registration, shell completion commands, and enum completion helpers.
 
 ## API
 

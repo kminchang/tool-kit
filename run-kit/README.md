@@ -1,6 +1,6 @@
 # run-kit
 
-obsidzen Go 도구가 외부 프로세스를 실행할 때 쓰는 **주입형 Runner** 모듈. 실제 실행은 `ExecRunner`, 테스트는 fake runner로 바꿔 명령 시퀀스를 검증한다.
+Go 도구가 외부 프로세스를 실행할 때 쓰는 **주입형 Runner** 모듈. 실제 실행은 `ExecRunner`, 테스트는 fake runner로 바꿔 명령 시퀀스를 검증한다.
 
 역할 경계: [tool-kit README](../README.md).
 
